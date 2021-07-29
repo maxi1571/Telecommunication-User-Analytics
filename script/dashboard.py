@@ -183,7 +183,7 @@ if __name__ == "__main__":
     #db1 = DBoperations()
     #db1.createDB('UserAnalytics')
     #db1.createTables('Final_table')
-    #df = pd.read_csv('/home/bethelhem/User-Analytics-in-the-Telecommunication-Industry/Data/final_table.csv')
+    #df = pd.read_csv('/home/michael/User-Analytics-in-the-Telecommunication-Industry/Data/final_table.csv')
     
     #db1.insert_to_table('UserAnalytics', df=df, table_name='Final_table')
     #query = "select * from Final_table"
@@ -196,7 +196,7 @@ if __name__ == "__main__":
     st.markdown("<p style='padding:30px; background-color:#00000;color:#00CCB9;font-size:26px;border-radius:10px;'>Piechart of applications</p>", unsafe_allow_html=True)
     #obj1.Top_10_mostEngaged()
 
-    from PIL import Image
-    image = Image.open('/home/bethelhem/Pictures/Screenshot from 2021-07-17 22-04-57.png')
+    #from PIL import Image
+    #image = Image.open('/home/michael/Pictures/Screenshot from 2021-07-17 22-04-57.png')
 
-    st.image(image, caption='applications pie chart')
+    #st.image(image, caption='applications pie chart')
